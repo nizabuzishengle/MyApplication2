@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id ="@+id/ch4_1_11"
+    android:orientation="vertical"
+    tools:context="cn.edu.sdwu.android.classroom.sn170507180211.Ch1Activity_1">
 
     <Button
-        android:layout_width="wrap_content"
-        android:text="buttonl"
         android:id="@+id/button1"
-        android:layout_height="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buttonl" />
+
     <ImageView
-        android:layout_width="200dp"
         android:id="@+id/ch4_iv"
-        android:src="@raw/fengjing"
-        android:layout_height="150dp" />
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@raw/fengjing" />
+
     <EditText
-        android:layout_width="match_parent"
         android:id="@+id/ch4_1_email"
-        android:hint="please input email"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please input email" />
+
     <EditText
         android:layout_width="match_parent"
         android:id="@+id/ch4_2_tel"
@@ -26,5 +34,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:id="@+id/Ch4_1_tv"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="MainActivity"
+        android:onClick="startMain"
         android:layout_height="wrap_content" />
 </LinearLayout>
